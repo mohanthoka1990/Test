@@ -230,20 +230,19 @@
 // for(let i = 0; i<4; i++){
 //     console.log(a)
 // }
-// let firstArray = [1, 2, 3, 4,5,6];
-// let secondArray = [3, 4, 5, 6];
+let firstArray = [1, 2, 3, 4,5,6];
+let secondArray = [3, 4, 5, 6];
 
-// let result = [];  
+let result = [];  
   
-// for(let i = 0; i < firstArray.length; i++){
-//    for(let j = 0; j < secondArray.length; j++){
-//     if(firstArray[i] === secondArray[j]){
-//         result.push(firstArray[i]);
-        
-//     }
-//    } 
-// }
-// console.log(result)
+for(let i = 0; i < firstArray.length; i++){
+   for(let j = 0; j < secondArray.length; j++){
+    if(firstArray[i] === secondArray[j]){
+        result.push(firstArray[i]);
+    }
+   } 
+}
+console.log(result)
 //TASK -9
 // let number = 17;
 
@@ -931,6 +930,6 @@
 // }
 // console.log(givenStr("javascript is fun"));
 
-function sumOf(n){
-    let 
-}
+// function sumOf(n){
+//     let 
+// }
