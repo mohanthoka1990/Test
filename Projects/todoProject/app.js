@@ -131,6 +131,7 @@ function createAndAppendTodo(todo) {
         onDeleteTodo(todoId);
     };
 
+    
     deleteIconContainer.appendChild(deleteIcon);
 }
 
