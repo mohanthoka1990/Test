@@ -1,0 +1,1384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #FFFFFF;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #E43071;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px
+}
+
+nav h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 43.8px;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav h1 span {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 43.8px;
+    text-align: center;
+    color: lightgray;
+}
+
+.nav-menu {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.52px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.login-button {
+    width: 136px;
+    height: 38px;
+    top: 25px;
+    left: 1233px;
+    gap: 0px;
+    border-radius: 200px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    border: 0;
+    color: #E43071;
+}
+li{
+    list-style: none;
+}
+.search-icon {
+    width: 15.72px;
+    height: 13.72px;
+    top: 44px;
+    left: 1180.4px;
+    gap: 0px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png");
+    width: 100%;
+    height: 85Vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-container h1 {
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 77px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bg-img-content-span {
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 43.8px;
+    text-align: center;
+    color: lightgray;
+}
+
+.bg-container button {
+    width: 237px;
+    height: 68px;
+    /* top: 522px;
+    left: 602px;
+    gap: 0px; */
+    opacity: 0px;
+    background-color: #E43071;
+    color: #FFFFFF;
+    border-radius: 200px;
+    border: 0;
+    margin-top: 20px;
+}
+.bg-container button:hover{
+    border: 2px solid blue;
+    background-color: #f7075f;
+}
+.slider-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 3px;
+}
+
+.doot {
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.doot1 {
+    border-radius: 50%;
+    background-color: #E43071;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.path-2-container {
+    background-image: url("https://res.cloudinary.com/dxudtajsv/image/upload/v1719610889/Path_2_fmolp1.png");
+    background-size: cover;
+    height: 25px;
+    width: 100%;
+    background-color: black;
+}
+
+.meet-your-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 150px;
+    padding: 85px 90px;
+}
+
+.meet-your-body-image {
+    position: relative;
+    width: 50%;
+    padding: 200px;
+    left: 285px;
+    top: 35px;
+
+}
+
+.male_lifting {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.female_doing {
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+.meet-your-body-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.meet-your-body-content h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #E43071;
+    ;
+}
+
+.meet-your-body-content p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    color: #424242;
+}
+
+.meet-your-body-content button {
+    width: 136px;
+    height: 36px;
+    border-radius: 24px;
+    padding: 10px;
+    border: 1px solid #E43071;
+    background-color: #FFFFFF;
+    color: #E43071;
+}
+.meet-your-body-content button:hover{
+    border: 2px solid blue;
+}
+
+.woman_doing_situps {
+    background-image: url("https://res.cloudinary.com/dxudtajsv/image/upload/v1719615920/Woman_doing_situps_apom0h.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.woman_doing_situps h1 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+.woman_doing_situps p {
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23.15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.woman_doing_situps button {
+    width: 136px;
+    height: 36px;
+    border-radius: 24px;
+    padding: 10px;
+    border: 0px;
+    background-color: #E43071;
+    color: #FFFFFF;
+}
+.woman_doing_situps button:hover{
+    border: 2px solid blue;
+    background-color: #f7075f;   
+}
+
+.premium_facilities-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    gap: 50px;
+    padding: 85px 90px
+}
+
+.premium_facilities-body-content {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.premium_facilities-body-content h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #E43071;
+}
+
+.premium_facilities-body-content p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    color: #424242;
+}
+
+.premium_facilities-body-content button {
+    width: 136px;
+    height: 36px;
+    border-radius: 24px;
+    padding: 10px;
+    border: 1px solid #E43071;
+    background-color: #FFFFFF;
+    color: #E43071;
+}
+.premium_facilities-body-content button:hover{
+    border: 2px solid blue;
+}
+
+.premium_facilities-image {
+    position: relative;
+    width: 500px;
+}
+
+.gym_Room {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 25px;
+    right: 80px;
+}
+
+.weights {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.real_story_container {
+    background-image: linear-gradient(#FFFFFF, #F4E3E9);
+    position: relative;
+    gap: 30px;
+    height: 100vh;
+  
+   
+}
+
+.real_stories {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    opacity: 0.02;
+    top: 0px;
+    left: 180px;
+}
+
+/* .real_story_body {
+    position: absolute;
+    top: 30px;
+    left: 220px;
+} */
+.real_story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.real_story h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.22px;
+    text-align: left;
+    color: #424242;
+}
+
+.real_story p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #424242;
+}
+.gym-right-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.card_content {
+    display: flex;
+}
+
+.card_content p {
+    padding-left: 5px;
+}
+
+.lost_cards_3kg {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 360px;
+    border-radius: 5px;
+    padding: 25px;
+    gap: 20px;
+    top: 195px;
+    left: 295px;
+    box-shadow: 1px 4px 8px 0px #0000002E;
+}
+
+.lost_cards_3kg h1 {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.3px;
+    text-align: left;
+    color: #E43071;
+}
+
+.lost_cards_3kg img {
+    width: 45px;
+    height: 45px;
+}
+
+.lost_cards_3kg p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #424242;
+}
+.lost_card_3kg:hover{
+    border: 2px solid blue;
+}
+.lost_cards_17kg {
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 310px;
+    border-radius: 5px;
+    padding: 25px;
+    gap: 20px;
+    top: 70px;
+    right: 390px;
+    box-shadow: 1px 4px 8px 0px #0000002E;
+}
+
+.lost_cards_17kg img {
+    width: 20px;
+    height: 20px;
+}
+
+.lost_cards_17kg h1 {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.3px;
+    text-align: left;
+    color: #E43071;
+}
+.gym-cards-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+}
+.lost_cards_17kg p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #424242;
+}
+.lost_cards_17kg:hover{
+    border: 2px solid blue;
+}
+
+.lost_card_3kg .portrait_of_person {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.img_card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.name_card .name {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.name_card .name_des {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lost_card_17kg .portrait_of_person {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.lost_cards_14kg {
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 210px;
+    border-radius: 5px;
+    padding: 25px;
+    gap: 20px;
+    right: 465px;
+    top: 400px;
+    box-shadow: 1px 4px 8px 0px #0000002E;
+}
+
+.lost_cards_14kg h1 {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.3px;
+    text-align: left;
+    color: #E43071;
+}
+.lost_cards_14kg:hover{
+    border: 2px solid blue;
+}
+
+.s-card {
+    background-color: #FFFFFF;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50px 50px 50px 0px;
+    position: absolute;
+    top: 560px;
+    left: 150px;
+    box-shadow: 1px 4px 8px 0px #0000002E;
+    display: none;
+}
+
+.s-card h1 {
+    font-family: Poppins;
+    font-size: 25px;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+}
+
+.cls {
+    display: flex;
+    gap: 10px;
+}
+
+.s-card1 {
+    background-color: #FFFFFF;
+    width: 180px;
+    padding: 10px;
+    border-radius: 50px 50px 50px 0px;
+    position: absolute;
+    top: 560px;
+    left: 150px;
+    box-shadow: 1px 4px 8px 0px #0000002E;
+    display: none;
+    height: 50px;
+}
+
+.s-card1 h1 {
+    font-family: Poppins;
+    font-size: 25px;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+}
+
+.s-card:hover+.s-card1 {
+    display: block;
+}
+
+.s-card-text {
+    color: #989393;
+}
+
+.s-cart-sent {
+    color: #424242;
+}
+
+.social_media_container {
+    background-color: #EDEDED;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    gap: 20px;
+}
+
+.social_media_container h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #E43071;
+    padding-top: 6px;
+}
+
+.social_media_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social_images {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_images:hover{
+    border: 2px solid blue;
+}
+
+.social-hover-card {
+    background-color: #FFFFFF;
+    width: 90px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 50px 50px 50px 0px;
+    position: relative;
+    box-shadow: 1px 4px 8px 0px #0000002E;
+    bottom: 20px;
+    left: 1000px;
+    display: none;
+}
+
+.social-hover-card .social-hover1 {
+    font-family: Poppins;
+    font-size: 20px;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 50%;
+    width: 25px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    z-index: 2;
+}
+
+.social-hover-card .social-hover2 {
+    font-family: Poppins;
+    font-size: 20px;
+    background-color: #E43071;
+    border: 0px;
+    border-radius: 50%;
+    width: 25px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    position: absolute;
+    top: 5px;
+    right: 35px;
+    z-index: 1;
+}
+
+.social-hover-card .social-hover3 {
+    font-family: Poppins;
+    font-size: 10px;
+    background-color: rgb(235, 42, 42);
+    border: 0px;
+    border-radius: 50%;
+    width: 25px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    position: absolute;
+    top: 5px;
+    right: 13px;
+    z-index: 0;
+}
+
+.social-hover-card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 180px;
+    padding: 5px;
+    border-radius: 50px 50px 50px 0px;
+    position: relative;
+    box-shadow: 1px 4px 8px 0px #0000002E;
+    bottom: 150px;
+    left: 1000px;
+    /* transition: all 55s ease-in-out 55s; */
+    display: none;
+}
+
+.card-head-content {
+    display: flex;
+    gap: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-span {
+    color: #7c6868;
+}
+
+.card-content a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #424242;
+    padding-top: 10px;
+
+}
+
+.social-hover-card1 .social-hover_a {
+    font-family: Poppins;
+    font-size: 20px;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+
+}
+
+.social-hover-card1 .social-hover_b {
+    font-family: Poppins;
+    font-size: 20px;
+    background-color: #E43071;
+    border: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.social-hover-card1 .social-hover_c {
+    font-family: Poppins;
+    font-size: 10px;
+    background-color: rgb(235, 42, 42);
+    border: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.social-hover-card:hover {
+    display: none;
+}
+
+.social-hover-card:hover+.social-hover-card1 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    padding: 30px;
+
+}
+
+.app_card {
+    background-color: #E43071;
+    display: flex;
+}
+
+.forget_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 15px;
+    padding: 79px 160px;
+}
+
+.forget_section h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.forget_section p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.mobil_img_section {
+    position: relative;
+    width: 50%;
+}
+
+.phone_mockup_1 {
+    position: absolute;
+    top: -47px;
+    width: 230px;
+    height: 380px;
+    left: 50px;
+}
+
+.phone_mockup_2 {
+    position: absolute;
+    width: 230px;
+    height: 280px;
+    bottom: 0px;
+    right: 250px;
+}
+
+.footer-card {
+    background-color: #0B0D17;
+    height: auto;
+    padding: 100px;
+}
+
+.footer-top-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-top-first-part {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+}
+
+.footer-top-first-part h1 {
+    font-family: Poppins;
+    font-size: 25.67px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-top-first-part span {
+    font-family: Poppins;
+    font-size: 25.67px;
+    font-weight: 800;
+    text-align: center;
+    color: #E43071;
+}
+
+.footer-top-first-part p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.links-card h1 {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.links-card a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.guides-card h1 {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.guides-card p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.reach-us-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+.reach-us-card h1 {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.reach-us-card a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.reach-us-card img {
+    width: 24px;
+    height: 24px;
+}
+
+.reach-us-card div {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-bottem-part {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.footer-bottem-part p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+}
+
+.footer-bottem-part a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #D9DBE1;
+}
+.mobile-search-bar{
+    display: none;
+}
+.terms-card span{
+    width: 1px;
+}
+.barger-button{
+    display: none;
+}
+.mobile-response-card{
+    display: none;
+}
+.phone_mockup_2{
+    display: block;
+}
+.phone_mockup_3{
+    display: none;
+}
+
+@media(max-width:900px) {
+    .nav-menu{
+        display: none;
+    }
+    .social-hover-card{
+        display: none;
+    }
+    .meet-your-body-container{
+        flex-direction: column-reverse;
+    }
+    .meet-your-body-image {
+        width: 100%;
+        left: 55px;
+    }
+    .meet-your-body-content{
+        width: 100%;
+    }
+    .mobil_img_section {
+        position: relative;
+        width: 100%;
+        padding: 106px 103px;
+    }
+    .phone_mockup_1{
+        left: 202px;
+        top: -234px;
+    }
+    .phone_mockup_2{
+        left: 418px;
+        top: -73px;
+    }
+    .mobile-response-card{
+        display: block;
+    }
+    .line1, .line2, .line3{
+        background-color: #FFFFFF;
+        height: 3px;
+        width: 20px;
+        margin-bottom: 5px;
+    }
+    .social-hover-card{
+        display: none;
+    }
+    .forget_section{
+        width: 100%;
+    }
+    .app_card{
+        flex-direction: column;
+        gap: 200px;
+    }
+}
+@media(max-width:615px){
+    .gym-right-cards{
+        display: none;
+    }
+    body{
+        width: fit-content;
+    }
+    .container{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .woman_doing_situps{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 76px;
+    }
+    .premium_facilities-container{
+        height: auto;
+        padding: 60px 30px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .premium_facilities-body-content{
+        width: 100%;
+        gap: 10px;
+    }
+    .premium_facilities-image{
+        width: 100%;
+        padding: 187px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .woman_doing_situps h1{
+        text-align: center;
+        padding: 15%;
+    }
+   
+    .weights{
+        bottom: 80px;
+        right: 100px;
+    }
+    .gym_Room{
+        left: 60px;
+        top: 14px;
+        
+    }
+    .nav-menu{
+        display: none;
+    }
+    .social-hover-card{
+        display: none;
+    }
+    .meet-your-body-container{
+        flex-direction: column;
+    }
+    .meet-your-body-image {
+        width: 100%;
+        left: 55px;
+    }
+    .meet-your-body-content{
+        width: 100%;
+    }
+    .mobil_img_section {
+        position: relative;
+        width: 100%;
+    }
+    .phone_mockup_1{
+        left: 202px;
+        top: -234px;
+    }
+    .phone_mockup_2{
+        left: 418px;
+        top: -73px;
+    }
+    .phone_mockup_2{
+        display: none;
+    }
+    .phone_mockup_3{
+        display: block;
+        position: absolute;
+        top: -80px;
+        right: 0px;
+    }
+    .s-card{
+        display: none;
+    }
+    .real_stories{
+        display: none;
+    }
+   
+    .lost_card_17kg{
+        display: none;
+    }
+    .lost_card_14kg{
+        display: none;
+    }
+    .lost_card_3kg{
+        top: 200px;
+        left: 130px;
+    }
+    .real_story_container{
+        padding: 300px;
+    }
+    .mobile-response-card{
+        display: block;
+    }
+    .line1, .line2, .line3{
+        background-color: #FFFFFF;
+        height: 3px;
+        width: 20px;
+        margin-bottom: 5px;
+    }
+    .social-hover-card{
+        display: none;
+    }
+    .forget_section{
+        width: 100%;
+    }
+    .app_card{
+        flex-direction: column;
+        gap: 200px;
+    }
+    .social_media_container{
+        height: auto;
+        padding: 60px;
+    }
+    .footer-card{
+        height: auto;
+    }
+    .footer-top-part{
+        flex-direction: column;
+    }
+    .real_storie{
+        display: none;
+    }
+} 
+
+@media(max-width:360px){
+    .gym-right-cards{
+        display: none;
+    }
+    body{
+        width: fit-content;
+    }
+    .container{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .woman_doing_situps{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 76px;
+    }
+    .premium_facilities-container{
+        height: auto;
+        padding: 60px 30px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .premium_facilities-body-content{
+        width: 100%;
+        gap: 10px;
+    }
+    .premium_facilities-image{
+        width: 100%;
+        padding: 187px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .woman_doing_situps h1{
+        text-align: center;
+        padding: 15%;
+    }
+   
+    .weights{
+        bottom: 80px;
+        right: 100px;
+    }
+    .gym_Room{
+        left: 60px;
+        top: 14px;
+        
+    }
+    .nav-menu{
+        display: none;
+    }
+    .social-hover-card{
+        display: none;
+    }
+    .meet-your-body-container{
+        flex-direction: column;
+    }
+    .meet-your-body-image {
+        width: 100%;
+        left: 55px;
+    }
+    .meet-your-body-content{
+        width: 100%;
+    }
+    .mobil_img_section {
+        position: relative;
+        width: 100%;
+    }
+    .phone_mockup_1{
+        left: 202px;
+        top: -234px;
+    }
+    .phone_mockup_2{
+        left: 418px;
+        top: -73px;
+    }
+    .phone_mockup_2{
+        display: none;
+    }
+    .phone_mockup_3{
+        display: block;
+        position: absolute;
+        top: -80px;
+        right: 0px;
+    }
+    .s-card{
+        display: none;
+    }
+    .real_stories{
+        display: none;
+    }
+   
+    .lost_card_17kg{
+        display: none;
+    }
+    .lost_card_14kg{
+        display: none;
+    }
+    .lost_card_3kg{
+        top: 200px;
+        left: 130px;
+    }
+    .real_story_container{
+        padding: 300px;
+    }
+    .mobile-response-card{
+        display: block;
+    }
+    .line1, .line2, .line3{
+        background-color: #FFFFFF;
+        height: 3px;
+        width: 20px;
+        margin-bottom: 5px;
+    }
+    .social-hover-card{
+        display: none;
+    }
+    .forget_section{
+        width: 100%;
+    }
+    .app_card{
+        flex-direction: column;
+        gap: 200px;
+    }
+    .social_media_container{
+        height: auto;
+        padding: 60px;
+    }
+    .footer-card{
+        height: auto;
+    }
+    .footer-top-part{
+        flex-direction: column;
+    }
+    .real_storie{
+        display: none;
+    }
+}  

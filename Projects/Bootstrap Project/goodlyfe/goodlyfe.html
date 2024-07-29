@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Goodlyfe Project</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="goodlyfe.css">
+</head>
+
+<body>
+    <!-- navBar -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg-clr">
+        <div class="container-fluid d-flex ">
+            <a class="navbar-brand fw-bold text-white" href="#">Good<span>lyfe</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white mx-3" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#">Classess</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#">Timetable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#">Clubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#">Nutrition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#">Free Trial</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center align-items-center mx-3">
+                            <a class="nav-link text-white" href="#">Search</a>
+                            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719607236/Search_Icon_b4a1og.png"
+                                alt="Search_Icon" class="search-icon text-white">
+                        </li>
+
+                    </ul>
+                    <button class="btn lg-button mx-3" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Herro section -->
+    <!-- <div class="hero-container d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+            <button class="btn benefits-button text-white">See the benefits</button>
+        </div>
+        
+
+       </div> -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+        </div>
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png" class="d-block w-100" alt="...">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                <button class="btn benefits-button text-white">See the benefits</button>
+            </div>
+          </div> 
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719615920/Woman_doing_situps_apom0h.png" class="d-block w-100" alt="...">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                <button class="btn benefits-button text-white">See the benefits</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png" class="d-block w-100" alt="...">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                <button class="btn benefits-button text-white">See the benefits</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719615920/Woman_doing_situps_apom0h.png" class="d-block w-100" alt="...">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                <button class="btn benefits-button text-white">See the benefits</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png" class="d-block w-100" alt="...">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                <button class="btn benefits-button text-white">See the benefits</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+    <!-- carousel1 -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                    <button class="btn benefits-button text-white">See the benefits</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                    <button class="btn benefits-button text-white">See the benefits</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="fw-bold text-white text-center">Welcome to <br>Good<span>lyfe</span> Gyms</h1>
+                    <button class="btn benefits-button text-white">See the benefits</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Meet your new body -->
+    <div class=" d-md-flex f-md-column justify-content-center align-items-center my-3 gap-3 col-lg-12 col-md-12 meet-you-card" data-aos="flip-left">
+        <div class="meet-you-card container-fluid text-center col-lg-6 col-md-12">
+            <div class='product-holder p-3'>
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719612017/male_lifting_weights_ncng0d.png"
+                    class='product-image w-50 rounded-2'>
+            </div>
+        </div>
+
+        <div class="container col-lg-6 py-5 col-md-12">
+            <h3 class="meet-your-new-body-heading">Meet your new body</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna. Nulla magna tortor,
+                bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risus, ut imperdiet augue.</p>
+            <button class="btn benefits-button text-white">View the FAQ</button>
+        </div>
+
+    </div>
+    <!-- carousel2 -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719615920/Woman_doing_situps_apom0h.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="fw-bold text-white text-center">Become more than you are.</h1>
+                    <p class="text-center text-white">Staying active is great fun and keeps you healthy.<br> Check out
+                        how you can join in.</p>
+                    <button class="btn benefits-button text-white">Let’s do it!</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719615920/Woman_doing_situps_apom0h.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="fw-bold text-white text-center">Become more than you are.</h1>
+                    <p class="text-center text-white">Staying active is great fun and keeps you healthy.<br> Check out
+                        how you can join in.</p>
+                    <button class="btn benefits-button text-white">Let’s do it!</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719615920/Woman_doing_situps_apom0h.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="fw-bold text-white text-center">Become more than you are.</h1>
+                    <p class="text-center text-white">Staying active is great fun and keeps you healthy.<br> Check out
+                        how you can join in.</p>
+                    <button class="btn benefits-button text-white">Let’s do it!</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Premium Facilities -->
+    <div class=" d-md-flex f-md-column justify-content-center align-items-center my-3 gap-3 col-lg-12 col-md-12 meet-you-card" data-aos="slide-up" >
+        <div class="container col-lg-6 py-5 col-md-12 px-5">
+            <h3 class="meet-your-new-body-heading">Premium Facilities</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna. Nulla magna tortor,
+                bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risus, ut imperdiet augue.</p>
+            <button class="btn benefits-button text-white">View the FAQ</button>
+        </div>
+        <div class="meet-you-card container-fluid text-center col-lg-6 col-md-12">
+            <div class='product-holder p-3'>
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719617068/Gym_Room_bue1vh.png"
+                    class='product-image w-50 rounded-2'>
+            </div>
+        </div>
+    </div>
+    <!-- Feedback cards -->
+    <div class="m-5 p-3">
+        <h1 class="text-dark">Real Stories from <br> Real Customers</h1>
+        <div class="d-md-flex">
+            <div class="card-details bg-light p-3 m-4 rounded-4" data-aos="slide-up">
+                <h3>3Kg lost!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna. Nulla magna
+                    tortor, bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risu.</p>
+                <div class="d-flex">
+                    <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719729573/Portrait_of_person_kiivef.png"
+                        alt="" class="portrait_of_person">
+                    <div class="p-3">
+                        <h5 class="text-info">James John</h5>
+                        <p>Mother of two</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-details bg-light p-3 m-4 rounded-4" data-aos="slide-down">
+                <h3>17Kg lost!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna. Nulla magna
+                    tortor, bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risu.</p>
+                <div class="d-flex">
+                    <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719731829/Portrait_of_person_1_rqwgiz.png"
+                        alt="" class="portrait_of_person">
+                    <div class="p-3">
+                        <h5 class="text-info">Mary Patricia</h5>
+                        <p>Mother of two</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-details bg-light p-3 m-4 rounded-4" data-aos="slide-up">
+                <h3>13Kg lost!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna. Nulla magna
+                    tortor, bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risu.</p>
+                <div class="d-flex">
+                    <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719735808/Portrait_of_person_2_btibrm.png"
+                        alt="" class="portrait_of_person">
+                    <div class="p-3">
+                        <h5 class="text-info">Robert Micheal</h5>
+                        <p>Mother of two</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- About our App -->
+    <div class="about-our-app-card p-5 d-md-flex justify-content-center align-items-center" data-aos="flip-left">
+        <div class="col-xl-6 p-5">
+            <h2 class="text-white">Don’t forget our app</h2>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget lectus urna.
+                Nulla magna tortor, bibendum in molestie sed, gravida nec felis. Sed id egestasegestas risus, ut
+                imperdiet augue.</p>
+            <p class="text-white">Download now:</p>
+            <div>
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719741463/Layer_2_xaahzd.png" alt="">
+                <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719741572/Group_ooywu9.png" alt="">
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719741721/Phone_Mockup_1_l8ro4c.png" alt=""
+                class="w-75">
+        </div>
+    </div>
+    <!-- Social Media card -->
+    <div class="social-media-card p-5 d-flex flex-column justify-content-center align-items-center gap-4" data-aos="fade-down-left">
+        <h1 class="social-media-heading">Social</h1>
+        <div class="d-flex justify-content-center align-items-center gap-4">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719748698/Page_1_wahtu7.png" alt=""
+                class="social-media-icons">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719748708/Page_1_1_rl2sk3.png" alt=""
+                class="social-media-icons">
+            <img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719748716/Page_1_2_lpks9g.png" alt=""
+                class="social-media-icons">
+        </div>
+    </div>
+    <!-- Footer section -->
+    <div class="bg-dark p-5">
+        <div class="d-md-flex justify-content-center gap-3">
+            <div class="col-xl-3 p-3">
+                <h5 class="text-white fw-bold mb-4">Good<span class="footer-heading">lyfe</span></h5>
+                <p class="text-white">Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed
+                    turpis volutpat. Cursus sed massa non nisi, placerat.</p>
+                <div>
+                    <a href=""><img
+                            src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719825393/Instagram_pvttjr.png"
+                            alt=""></a>
+                    <a href=""><img
+                            src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719824786/Dribbble_ekhc1f.png"
+                            alt=""></a>
+                    <a href=""><img
+                            src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719824779/Twitter_bzumbb.png"
+                            alt=""></a>
+                    <a href=""><img
+                            src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719824807/Youtube_pbyxzx.png"
+                            alt=""></a>
+                </div>
+            </div>
+            <div class="col-xl-3 p-3">
+                <h5 class="text-white mb-4">Quick Links</h5>
+                <p class="text-white">Classes</p>
+                <p class="text-white">Timetable</p>
+                <p class="text-white">Clubs</p>
+                <p class="text-white">Nutrition</p>
+                <p class="text-white">Free Trial</p>
+            </div>
+            <div class="col-xl-3 p-3 d-none d-xl-block">
+                <h5 class="text-white mb-4">Guides</h5>
+                <p class="text-white">Weight Loss</p>
+                <p class="text-white">Strength Gain</p>
+                <p class="text-white">Crossfit</p>
+                <p class="text-white">Washbaord Abs</p>
+                <p class="text-white">Dieting</p>
+            </div>
+            <div class="col-xl-3 p-3">
+                <h5 class="text-white mb-4">Reach us</h5>
+                <div class="d-flex gap-2">
+                    <a><img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719828878/Message_pvdcss.png"
+                            alt="" class="reach-icons"></a>
+                    <p class="text-white">admin@goodlyfe.co</p>
+                </div>
+                <div class="d-flex gap-2">
+                    <a><img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719828917/Calling_agi4xo.png"
+                            alt="" class="reach-icons"></a>
+                    <p class="text-white">+88 98765 43210</p>
+                </div>
+                <div class="d-flex gap-2">
+                    <a><img src="https://res.cloudinary.com/dxudtajsv/image/upload/v1719828959/Location_qlidgd.png"
+                            alt="" class="reach-icons"></a>
+                    <p class="text-white">90210 Beverly Hills<br> California USA</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-md-flex justify-content-between p-3">
+            <p class="text-white text-center">© 2020 GoodLyfe. All rights reserved</p>
+            <p class="text-white text-center">Terms & Conditions | Privacy Policy | Sitemap | Disclaimer</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000
+        });
+    </script>
+
+</body>
+
+</html>

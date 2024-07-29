@@ -1,0 +1,9 @@
+#message-container{
+    display: flex;
+    justify-content: flex-end;
+}
+#chat-container{
+    display: flex;
+    justify-content: flex-end; 
+    gap: 3px;   
+}

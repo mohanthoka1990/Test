@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bg-clr{
+    background-color: #E43071;
+}
+.container-fluid, a, span{
+    color: #FFC1D8;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+.lg-button{
+    width: 136px;
+    height: 38px;
+    border: 1px solid #E43071;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+h1, h2, h3{
+    color: #E43071;
+}
+
+/* .hero-container{
+    background-image: url("https://res.cloudinary.com/dxudtajsv/image/upload/v1719606985/Female_working_out_k3s7q5.png");
+    height: 85vh;
+    background-size: cover;
+} */
+.hero-container, h1, span{
+    color: #FFC1D8;
+} 
+.benefits-button{
+    height: 45px;
+    border: 0px;
+    background-color: #E43071;
+    border-radius: 24px;
+    padding: 0px 25px;
+} 
+
+ .carousel-dark
+.carousel-indicators [data-bs-target] {
+    background-color: #E43071;
+} 
+
+ .product-image{
+    width: 200px;
+    height: 200px;
+    
+}
+.meet-you-card{
+    background-color: #f6f7f9;
+}
+.meet-your-new-body-heading{
+    color: #E43071;
+}
+.portrait_of_person{
+    width: 100px;
+}
+.about-our-app-card{
+    background-color: #E43071;
+}
+.social-media-card{
+    background-color: #EDEDED;
+}
+.social-media-heading{
+    color: #E43071;
+}
+.social-media-icons{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 50px;
+}
+.footer-heading{
+    color: #E43071;
+}
+.reach-icons{
+    width: 35px;
+    height: 30px;
+}

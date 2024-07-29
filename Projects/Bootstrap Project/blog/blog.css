@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+.txt-decoration{
+    text-decoration: none;
+    list-style: none;
+}
+.txt-decoration:hover{
+    text-decoration: underline;
+}
+.border-bottom {
+    border-bottom: 3px solid #dee2e6 !important;
+}
+.border-top {
+    border-top: 3px solid #dee2e6 !important;
+}
